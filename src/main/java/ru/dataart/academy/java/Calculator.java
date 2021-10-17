@@ -17,11 +17,11 @@ public class Calculator {
     }
 
     private Integer reverse(List<Integer> number) {
-        int num = 0;
+        int reversenumber = 0;
         for (int i = 0; i < number.size(); i++) {
-            num += (number.get(i) * (int) Math.pow(10, i));
+            reversenumber += (number.get(i) * (int) Math.pow(10, i));
         }
-        return num;
+        return reversenumber;
     }
 
     /**
